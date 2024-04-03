@@ -1,0 +1,102 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+/* Selected address to override "user agent stylesheet" that otherwise applies */
+
+/* Remove margin and padding from default element styling per instructions */
+* {
+  margin: 0;
+  padding: 0;
+}
+body * {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  color: #393939;
+}
+
+b {
+  font-weight: bold;
+}
+
+article {
+  text-align: left;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+footer,
+nav,
+header {
+  background: #fff0ed;
+}
+
+header h2 {
+  text-align: left;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+}
+
+h3 {
+  font-size: 2.063rem;
+}
+
+li {
+  list-style-type: none;
+}
+nav {
+  font-size: 1.313rem;
+}
+.top-nav-bar {
+  line-height: normal;
+  padding: 1.25rem;
+  display: flex;
+  align-items: end;
+}
+
+.top-nav-bar__logo {
+  width: 3.125rem;
+}
+
+/* group logo, name and each link in one bar */
+.top-nav-bar__logo-title,
+.top-nav-bar__title,
+.top-nav-bar__logo,
+.top-nav-bar__links,
+.top-nav-bar__link {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* separate shop name and each link with 20px equivalent per style guide */
+.top-nav-bar__logo-title,
+.top-nav-bar__link {
+  margin-right: 1.25rem;
+}
+
+/* align links with site title */
+.top-nav-bar__links {
+  /* padding-bottom: 0.25rem; */
+  margin-left: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  font-size: 2rem;
+}
+.top-nav-bar__link {
+  text-decoration: none;
+}
+.top-nav-bar__link--default {
+  color: #5bacc3;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <title>Coffee Shop - Home</title>
+  </head>
+
+  <body>
+    <nav class="top-nav-bar">
+      <div class="top-nav-bar__logo-title">
+        <a href="index.html"
+          ><img
+            class="top-nav-bar__logo"
+            src="./assets/coffee-beans-logo-and-footer.svg"
+            alt="coffee bean logo"
+        /></a>
+        <h3 class="top-nav-bar__title">nitro</h3>
+      </div>
+      <div class="top-nav-bar__links">
+        <a class="top-nav-bar__link" href="index.html">ABOUT</a>
+        <a class="top-nav-bar__link" href="./pages/menu.html">MENU</a>
+        <a
+          class="top-nav-bar__link top-nav-bar__link--default"
+          href="./pages/menu.html"
+          >SHOP NOW</a
+        >
+      </div>
+    </nav>
+
+    <header class="shop-cta">
+      <div class="shop-cta__text">
+        <h1>Nitro Coffee</h1>
+        <p class="shop-cta__desc">
+          Coffee is a brewed drink prepared from roasted coffee beans, the seeds
+          of berries from certain Coffea species.
+        </p>
+        <form action="./pages/menu.html">
+          <input type="submit" class="cta-button" value="SHOP NOW" />
+        </form>
+      </div>
+      <div class="shop-cta__logo">
+        <img src="./assets/coffeebeans-hero.png" alt="coffee bag" />
+      </div>
+    </header>
+    <main>
+      <section class="products-cards">
+        <h2 class="products-cards__title">Our Products</h2>
+        <div class="products-cards__carousel">
+          <article class="products-cards__article">
+            <div class="products-cards__img-card">
+              <img
+                class="products-cards__img"
+                src="./assets/coffeebeans.png"
+                alt="coffee beans"
+              />
+            </div>
+            <div class="products-cards__name-desc-price">
+              <div class="products-cards__name-desc">
+                <h3>Coffee Beans</h3>
+                <p class="products-cards__desc">Pack of 3</p>
+              </div>
+              <div class="products-cards__price">$19</div>
+            </div>
+          </article>
+          <article class="products-cards__article">
+            <div class="products-cards__img-card">
+              <img
+                class="products-cards__img"
+                src="./assets/coldbrew.png"
+                alt="cold brew"
+              />
+            </div>
+            <div class="products-cards__name-desc-price">
+              <div class="products-cards__name-desc">
+                <h3>Cold Brew</h3>
+                <p class="products-cards__desc">1 can</p>
+              </div>
+              <div class="products-cards__price">$5</div>
+            </div>
+          </article>
+          <article class="products-cards__article">
+            <div class="products-cards__img-card">
+              <img
+                class="products-cards__img"
+                src="./assets/inhousebrew.png"
+                alt="in-house brew"
+              />
+            </div>
+            <div class="products-cards__name-desc-price">
+              <div class="products-cards__name-desc">
+                <h3>In-house Brew</h3>
+                <p class="products-cards__desc">1 cup</p>
+              </div>
+              <div class="products-cards__price">$3</div>
+            </div>
+          </article>
+        </div>
+        <form class="products-cards__viewall" action="./pages/menu.html">
+          <input type="submit" class="cta-button" value="VIEW ALL" />
+        </form>
+      </section>
+
+      <section class="our-story">
+        <div class="our-story__story-text">
+          <h2 class="our-story__title">We're Different</h2>
+          <p>
+            We grow and roast our own beans. Every bean, every cup, every step
+            of the way, we strive for excellence.
+          </p>
+          <div class="our-story__icons">
+            <img
+              class="our-story__icon"
+              src="./assets/planting.svg"
+              alt="planting icon"
+            />
+            <img
+              class="our-story__icon"
+              src="./assets/coffee-beans.svg"
+              alt="coffee beans icon"
+            />
+            <img
+              class="our-story__icon"
+              src="./assets/coffee-cup.svg"
+              alt="coffee cup icon"
+            />
+          </div>
+          <form class="our-story__learn-more" action="./index.html">
+            <input type="submit" class="cta-button" value="LEARN MORE" />
+          </form>
+        </div>
+        <div class="our-story__logo">
+          <!-- <img src="./assets/tiltedcan.png" alt="tilted can" /> -->
+        </div>
+      </section>
+
+      <div class="discount-banner">
+        Get 20% off your first order with code:
+        <span class="discount-banner__code">FirstNitro</span>
+      </div>
+    </main>
+    <footer class="footer-contactus">
+      <div class="footer-contactus__col">
+        <h3>Address</h3>
+        <p>
+          503 Broadway Penthouse <br />
+          New York
+        </p>
+      </div>
+      <div class="footer-contactus__col">
+        <h3>Hours</h3>
+        <p>
+          <b>Monday - Friday:</b> 9am - 7pm <br />
+          <b>Saturday - Sunday:</b> 10am - 5pm
+        </p>
+      </div>
+      <div class="footer-contactus__col">
+        <h3>Social</h3>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            class="footer-contactus__social-icon"
+            src="./assets/Facebook-Icon.svg"
+            alt="facebook" /></a
+        ><a href="https://www.yelp.com/" target="_blank"
+          ><img
+            class="footer-contactus__social-icon"
+            src="./assets/Yelp-Icon.svg"
+            alt="yelp" /></a
+        ><a href="https://www.instagram.com/" target="_blank"
+          ><img
+            class="footer-contactus__social-icon"
+            src="./assets/Instagram-Icon.svg"
+            alt="instagram"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
