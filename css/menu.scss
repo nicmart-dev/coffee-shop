@@ -1,0 +1,79 @@
+h2,
+h3 {
+  text-align: center;
+}
+
+.hero-banner {
+  background-image: url("../assets/coffee-circle.jpg");
+  background-color: white;
+
+  /* Position and center the image to scale nicely on all screens */
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+
+  &__title-box {
+    /* scale title box but no less than width of MENU text to avoid truncation. */
+    width: 20vmax;
+    min-width: 15rem;
+    height: 25vmin;
+    background-color: #393939;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* center menu box */
+    margin: auto;
+  }
+}
+.menu-products {
+  &__category {
+    padding-bottom: 1.25rem;
+  }
+  &__description {
+    font-style: italic;
+    max-width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+  &__price {
+    color: #5bacc3;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+/* Zebra stripe the menu items */
+main section {
+  background: #fff0ed;
+}
+main section:nth-of-type(2n) {
+  background: #f7f7f7;
+}
+/* food and drink menu carousel */
+.sub-nav {
+  width: 100%;
+  /* height: 80px; */
+  background-color: #393939;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+
+  &__list-item {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.25rem 1.25rem;
+    margin: 0.625rem 0;
+    vertical-align: middle;
+    border-left: 0.25rem solid #5bacc3;
+  }
+  &__link {
+    color: white;
+    text-decoration: none;
+  }
+}

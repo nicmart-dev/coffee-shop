@@ -6,7 +6,6 @@ h3 {
 .hero-banner {
   background-image: url("../assets/coffee-circle.jpg");
   background-color: white;
-
   /* Position and center the image to scale nicely on all screens */
   height: 80vh;
   background-position: center;
@@ -29,7 +28,7 @@ h3 {
   margin: auto;
 }
 
-.menu-products h2 {
+.menu-products__category {
   padding-bottom: 1.25rem;
 }
 .menu-products__description {
@@ -49,9 +48,11 @@ h3 {
 main section {
   background: #fff0ed;
 }
+
 main section:nth-of-type(2n) {
   background: #f7f7f7;
 }
+
 /* food and drink menu carousel */
 .sub-nav {
   width: 100%;
@@ -62,11 +63,7 @@ main section:nth-of-type(2n) {
   text-transform: uppercase;
   padding: 0;
 }
-.sub-nav a {
-  color: white;
-  text-decoration: none;
-}
-.sub-nav li {
+.sub-nav__list-item {
   display: inline-block;
   box-sizing: border-box;
   padding: 0.25rem 1.25rem;
@@ -74,3 +71,7 @@ main section:nth-of-type(2n) {
   vertical-align: middle;
   border-left: 0.25rem solid #5bacc3;
 }
+.sub-nav__link {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=menu.css.map */

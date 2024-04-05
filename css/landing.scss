@@ -1,0 +1,163 @@
+.shop-cta {
+  /* Shop Now call to action header */
+  &__text,
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    line-height: normal;
+    width: 45%;
+  }
+  &__text {
+    /* padding: 0 3.125rem 6.25rem 3.125rem; */
+    padding-left: 6.25rem;
+  }
+  &__desc {
+    padding: 1rem 0;
+    width: 50%;
+  }
+  &__logo {
+    padding: 3.125rem;
+    text-align: right;
+    vertical-align: center;
+  }
+}
+
+.cta-button {
+  background-color: #5bacc3;
+  text-decoration: none;
+  color: white;
+  border: 0;
+  padding: 0.5rem 1rem;
+}
+
+.products-cards {
+  text-align: center;
+  background-color: #f7f7f7;
+
+  &__title {
+    padding: 2rem 0;
+  }
+  &__carousel {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  &__article {
+    background-color: #fff0ed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0rem 0.313rem 0.5rem -0.063rem;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-bottom: 2.5rem; */
+    width: 20rem;
+  }
+  &__img-card {
+    background-color: white;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  &__img {
+    /* height: 25%; */
+    height: 12rem;
+  }
+  &__name-desc {
+    padding-right: 1.25rem;
+  }
+  &__name-desc-price {
+    display: flex;
+    padding: 1.25rem;
+    align-items: center;
+  }
+  &__desc {
+    font-weight: 300;
+  }
+  &__price {
+    /* padding-top: 2rem; */
+    color: #5bacc3;
+    font-weight: bold;
+    font-size: 33px;
+    margin-left: auto; /* right align price */
+    vertical-align: middle;
+  }
+  &__viewall {
+    display: block;
+    padding: 2rem 0;
+    text-align: center;
+  }
+}
+
+.our-story {
+  display: flex;
+  gap: 26.25rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+
+  &__story-text {
+    width: 25%;
+  }
+  &__title {
+    margin-bottom: 1.25rem;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 0;
+  }
+  &__icon {
+    width: 3.125rem;
+  }
+  &__learn-more {
+    display: block;
+    padding: 1.25rem 0;
+  }
+  &__logo {
+    width: 25rem;
+    height: 25rem;
+    text-align: center;
+    background: no-repeat url("../assets/tiltedcan.png"),
+      url("../assets/coldbrewbackground.png");
+    background-size: 40%, cover;
+    background-position: center;
+  }
+}
+
+.discount-banner {
+  background-color: #393939;
+  color: white;
+  text-align: center;
+  font-size: 2.813rem;
+  min-width: 15rem;
+  padding: 2.5rem;
+  margin: 7.5rem 10rem;
+
+  /* bold discount code */
+  &__code {
+    font-weight: 700;
+    color: white;
+  }
+}
+
+.footer {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  // max-width: 1280px;
+
+  &__heading {
+    margin-bottom: 1.25rem;
+  }
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+  }
+  &__social-icon {
+    width: 3.125rem;
+  }
+}

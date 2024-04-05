@@ -1,6 +1,7 @@
-/* Shop Now call to action header */
-.shop-cta__text,
-.shop-cta__logo {
+.shop-cta {
+  /* Shop Now call to action header */
+}
+.shop-cta__text, .shop-cta__logo {
   display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
@@ -92,14 +93,12 @@
   justify-content: space-evenly;
   margin: 5rem 0;
 }
-
 .our-story__story-text {
   width: 25%;
 }
 .our-story__title {
   margin-bottom: 1.25rem;
 }
-
 .our-story__icons {
   display: flex;
   justify-content: space-between;
@@ -116,11 +115,9 @@
   width: 25rem;
   height: 25rem;
   text-align: center;
-  background: no-repeat url("../assets/tiltedcan.png"),
-    url("../assets/coldbrewbackground.png");
+  background: no-repeat url("../assets/tiltedcan.png"), url("../assets/coldbrewbackground.png");
   background-size: 40%, cover;
   background-position: center;
-  /* margin: auto; */
 }
 
 .discount-banner {
@@ -128,29 +125,31 @@
   color: white;
   text-align: center;
   font-size: 2.813rem;
-  /* width: 90%; */
   min-width: 15rem;
   padding: 2.5rem;
   margin: 7.5rem 10rem;
+  /* bold discount code */
 }
-/* bold discount code */
 .discount-banner__code {
   font-weight: 700;
   color: white;
 }
 
 .footer {
-  padding: 2rem 0;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
 }
-/* create a column for each footer category */
-.footer__col {
-  display: inline-block;
-  box-sizing: border-box;
-  width: 30%;
-  padding-left: 10%;
-  vertical-align: top;
-  /* padding: 50px; */
+.footer__heading {
+  margin-bottom: 1.25rem;
+}
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
 }
 .footer__social-icon {
   width: 3.125rem;
-}
+}/*# sourceMappingURL=landing.css.map */
