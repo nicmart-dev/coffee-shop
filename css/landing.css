@@ -139,11 +139,11 @@
   color: white;
 }
 
-.footer-contactus {
+.footer {
   padding: 2rem 0;
 }
 /* create a column for each footer category */
-.footer-contactus__col {
+.footer__col {
   display: inline-block;
   box-sizing: border-box;
   width: 30%;
@@ -151,6 +151,6 @@
   vertical-align: top;
   /* padding: 50px; */
 }
-.footer-contactus__social-icon {
+.footer__social-icon {
   width: 3.125rem;
 }
