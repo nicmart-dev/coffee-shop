@@ -1,7 +1,4 @@
-/* import font */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
-
-/* Selected address to override "user agent stylesheet" that otherwise applies */
+@use "variables" as *;
 
 /* Remove margin and padding from default element styling per instructions */
 * {
@@ -9,7 +6,7 @@
   padding: 0;
 }
 body * {
-  font-family: "Open Sans";
+  font-family: $font-primary;
   font-weight: 400;
   font-style: normal;
   color: #393939;

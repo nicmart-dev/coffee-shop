@@ -1,3 +1,6 @@
+@use "./partials/global" as *;
+@use "./partials/variables" as *;
+
 .shop-cta {
   /* Shop Now call to action header */
   &__text,
@@ -24,7 +27,7 @@
 }
 
 .cta-button {
-  background-color: #5bacc3;
+  background-color: $color-secondary;
   text-decoration: none;
   color: white;
   border: 0;
@@ -33,7 +36,7 @@
 
 .products-cards {
   text-align: center;
-  background-color: #f7f7f7;
+  background-color: $color-neutral-lighter;
 
   &__title {
     padding: 2rem 0;
@@ -44,7 +47,7 @@
     flex-wrap: wrap;
   }
   &__article {
-    background-color: #fff0ed;
+    background-color: $color-neutral-light;
     box-shadow: rgba(0, 0, 0, 0.25) 0rem 0.313rem 0.5rem -0.063rem;
     border-radius: 0.625rem;
     display: flex;
@@ -54,7 +57,7 @@
     width: 20rem;
   }
   &__img-card {
-    background-color: white;
+    background-color: $color-neutral-lightest;
     padding: 1.25rem;
     text-align: center;
   }
@@ -126,7 +129,7 @@
 }
 
 .discount-banner {
-  background-color: #393939;
+  background-color: $color-primary;
   color: white;
   text-align: center;
   font-size: 2.813rem;
@@ -137,7 +140,7 @@
   /* bold discount code */
   &__code {
     font-weight: 700;
-    color: white;
+    color: $color-neutral-lightest;
   }
 }
 
