@@ -217,10 +217,44 @@ nav {
 .our-story__logo {
   width: 25rem;
   height: 25rem;
+  position: relative;
+  overflow: hidden;
   text-align: center;
-  background: no-repeat url("../assets/tiltedcan.png"), url("../assets/coldbrewbackground.png");
+}
+.our-story__logo::before {
+  content: "";
+  position: absolute;
+  background: no-repeat url("../assets/tiltedcan.png");
   background-size: 40%, cover;
   background-position: center;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+}
+.our-story__logo::after {
+  content: "";
+  position: absolute;
+  background: no-repeat url("../assets/coldbrewbackground.png");
+  background-size: 100%, cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0%;
+}
+.our-story__logo:hover:before {
+  animation: rotate-animation 2s infinite linear;
+}
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .discount-banner {
