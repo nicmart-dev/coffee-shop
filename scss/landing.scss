@@ -28,10 +28,20 @@
 
 .cta-button {
   background-color: $color-secondary;
+  display: inline-block;
   text-decoration: none;
   color: white;
   border: 0;
   padding: 0.5rem 1rem;
+
+  &:hover {
+    border: 2px solid black;
+    transform: translate(-5px, -5px);
+  }
+  &:active {
+    border: 2px solid black;
+    transform: translate(0, 0);
+  }
 }
 
 .products-cards {
